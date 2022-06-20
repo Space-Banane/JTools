@@ -1,4 +1,3 @@
-import json
 """
 JTools
 ~~~~~~~~~~~~~~~~~~~
@@ -15,7 +14,7 @@ This is a wrapper of the json module(this is easyer to use)
 
 JTools 2022 June 
 """
-
+import json
 def Save(data,file):
     with open(file,"w") as f:
         json.dump(data,f,ensure_ascii=False,indent=4)

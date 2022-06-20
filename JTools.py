@@ -3,11 +3,12 @@ JTools
 ~~~~~~~~~~~~~~~~~~~
 
 FUNCTIONS :
--Read()
--Write()
+-Read(file)
+-Save(data,file)
+-load(data,file)
 
 
-https://github.com/Bigboi-Python/JTools
+https://github.com/Space-Banane/JTools
 
 This is a wrapper of the json module(this is easyer to use)
 
@@ -23,3 +24,9 @@ def Read(file):
     with open(file,"r") as f:
         data = json.load(f)
         print(data)
+
+def load(data,file):
+    with open(file,"r") as f:
+        loaded = json.load(f)
+        data = loaded[data]
+        return data

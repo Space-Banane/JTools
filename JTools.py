@@ -23,3 +23,4 @@ def Save(data,file):
 def Read(file):
     with open(file,"r") as f:
         data = json.load(f)
+        print(data)

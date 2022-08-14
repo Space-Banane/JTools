@@ -12,7 +12,6 @@ https://github.com/Space-Banane/JTools
 
 This is a wrapper of the json module(this is easyer to use)
 
-
 JTools 2022 June 
 """
 import json

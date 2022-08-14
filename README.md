@@ -9,3 +9,7 @@ JTools is json but with less lines + easy to use
 #### Load : `return = JTools.load("data you want to get","file")`
 #### Save : `JTools.load("data you want to save","file")`
 #### Save : `r = JTools.load("data you want to read","file")`
+
+### Exceptions 
+#### JTools just raises "Exception" when something wrong happend
+#### Informations is in the Exception

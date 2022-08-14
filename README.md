@@ -12,4 +12,4 @@ JTools is json but with less lines + easy to use
 
 ### Exceptions 
 #### JTools just raises "Exception" when something wrong happend
-#### Informations is in the Exception
+#### Errors is in the Exception

@@ -6,7 +6,7 @@ JTools is json but with less lines + easy to use
 
 ### IN PYTHON
 
-#### Load : `return = JTools.load("data you want to get","file")`
+#### Load : `r = JTools.load("data you want to get","file")`
 #### Save : `JTools.load("data you want to save","file")`
 #### Save : `r = JTools.load("data you want to read","file")`
 
